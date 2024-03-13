@@ -1,127 +1,134 @@
-const _0x5902df = _0x267c;
-(function (_0x30c775, _0x4e40e8) {
-  const _0x16016d = _0x267c,
-    _0x27d347 = _0x30c775();
-  while (!![]) {
-    try {
-      const _0xc9524c =
-        parseInt(_0x16016d(0x1d4)) / 0x1 +
-        -parseInt(_0x16016d(0x1d7)) / 0x2 +
-        (parseInt(_0x16016d(0x1ce)) / 0x3) *
-          (parseInt(_0x16016d(0x1da)) / 0x4) +
-        parseInt(_0x16016d(0x1d5)) / 0x5 +
-        -parseInt(_0x16016d(0x1d6)) / 0x6 +
-        (-parseInt(_0x16016d(0x1c8)) / 0x7) *
-          (-parseInt(_0x16016d(0x1c0)) / 0x8) +
-        parseInt(_0x16016d(0x1c1)) / 0x9;
-      if (_0xc9524c === _0x4e40e8) break;
-      else _0x27d347["push"](_0x27d347["shift"]());
-    } catch (_0xb25d03) {
-      _0x27d347["push"](_0x27d347["shift"]());
-    }
-  }
-})(_0x1001, 0xae58c);
-const key = _0x5902df(0x1d9),
-  url = _0x5902df(0x1c2) + key + _0x5902df(0x1d8);
-function getApi(_0x79f39a) {
-  const _0x1c9f4f = _0x5902df;
-  return fetch(url + _0x79f39a)
-    ["then"]((_0x7bb8e6) => {
-      return _0x7bb8e6["json"]();
-    })
-    [_0x1c9f4f(0x1c3)]((_0x58a735) => {
-      return _0x58a735;
-    })
-    [_0x1c9f4f(0x1c9)]((_0x3cbb47) => {
-      const _0x4b8245 = _0x1c9f4f;
-      console[_0x4b8245(0x1ca)](_0x3cbb47);
-    });
-}
-async function getApiDetails(_0x6157a9) {
-  const _0x58596b = await getApi(_0x6157a9);
-  render(_0x58596b);
-}
-function _0x1001() {
-  const _0x2e1823 = [
-    "\x20celsius\x20(feels\x20like\x20",
-    "london",
-    "current",
-    "899442pypilJ",
-    "4075620JjKHSw",
-    "7428558CSeBUL",
-    "1305310gcqGtl",
-    "&q=",
-    "be14689db2874a20afd140028240603",
-    "44njGQro",
-    "condition",
-    "addEventListener",
-    "</p>\x0a\x20\x20",
-    "</p>\x0a\x20\x20</div>\x0a\x20\x20<p>Current\x20temperature:\x20",
-    "name",
-    "log",
-    "1342472XUcUwB",
-    "5791059KwuLpr",
-    "http://api.weatherapi.com/v1/current.json?key=",
-    "then",
-    "text",
-    "\x0a\x20\x20<h2>",
-    "querySelector",
-    ".js-container",
-    "7wLSdYO",
-    "catch",
-    "error",
-    "#search",
-    "innerHTML",
-    "country",
-    "21558NTfGQf",
-    "icon",
-    "location",
-  ];
-  _0x1001 = function () {
-    return _0x2e1823;
-  };
-  return _0x1001();
-}
-function _0x267c(_0x59d9b2, _0x454f6e) {
-  const _0x1001ed = _0x1001();
+function _0x2cf0(_0x2b5542, _0x4bc2cc) {
+  const _0x1522dc = _0x1522();
   return (
-    (_0x267c = function (_0x267cc1, _0x2c319c) {
-      _0x267cc1 = _0x267cc1 - 0x1c0;
-      let _0x1e0b2f = _0x1001ed[_0x267cc1];
-      return _0x1e0b2f;
+    (_0x2cf0 = function (_0x2cf0ad, _0xb82f0f) {
+      _0x2cf0ad = _0x2cf0ad - 0x74;
+      let _0xd4dc9c = _0x1522dc[_0x2cf0ad];
+      return _0xd4dc9c;
     }),
-    _0x267c(_0x59d9b2, _0x454f6e)
+    _0x2cf0(_0x2b5542, _0x4bc2cc)
   );
 }
-function render(_0x1522d7) {
-  const _0x384919 = _0x5902df;
-  let _0x8e57d4 = document["querySelector"](_0x384919(0x1c7));
-  console[_0x384919(0x1e0)](_0x1522d7),
-    (_0x8e57d4[_0x384919(0x1cc)] = ""),
-    (_0x8e57d4["innerHTML"] =
-      _0x384919(0x1c5) +
-      _0x1522d7[_0x384919(0x1d0)][_0x384919(0x1df)] +
+const _0x3c55da = _0x2cf0;
+(function (_0x26e9b0, _0x29c967) {
+  const _0x4c7925 = _0x2cf0,
+    _0x542996 = _0x26e9b0();
+  while (!![]) {
+    try {
+      const _0x547167 =
+        parseInt(_0x4c7925(0x8d)) / 0x1 +
+        (-parseInt(_0x4c7925(0x8e)) / 0x2) * (parseInt(_0x4c7925(0x93)) / 0x3) +
+        -parseInt(_0x4c7925(0x95)) / 0x4 +
+        (-parseInt(_0x4c7925(0x86)) / 0x5) *
+          (-parseInt(_0x4c7925(0x77)) / 0x6) +
+        (parseInt(_0x4c7925(0x87)) / 0x7) * (-parseInt(_0x4c7925(0x83)) / 0x8) +
+        -parseInt(_0x4c7925(0x7a)) / 0x9 +
+        parseInt(_0x4c7925(0x85)) / 0xa;
+      if (_0x547167 === _0x29c967) break;
+      else _0x542996["push"](_0x542996["shift"]());
+    } catch (_0x13a318) {
+      _0x542996["push"](_0x542996["shift"]());
+    }
+  }
+})(_0x1522, 0xbe464);
+const key = _0x3c55da(0x75),
+  url = _0x3c55da(0x98) + key + _0x3c55da(0x84);
+function _0x1522() {
+  const _0x182710 = [
+    "location",
+    "country",
+    ".js-container",
+    "</p>\x0a\x20\x20</div>\x0a\x20\x20<p>Current\x20temperature:\x20",
+    "3cgAVLr",
+    "icon",
+    "3644212ZPHfDI",
+    "\x20celsius).</p>\x0a\x20\x20<p>",
+    "querySelector",
+    "http://api.weatherapi.com/v1/current.json?key=",
+    "#search",
+    "log",
+    "name",
+    "be14689db2874a20afd140028240603",
+    "error",
+    "701262SfacbW",
+    "value",
+    "localtime",
+    "11717928tNZkHk",
+    "json",
+    "condition",
+    "current",
+    "\x22/>\x0a\x20\x20\x20\x20<p>",
+    "innerHTML",
+    "feelslike_c",
+    "temp_c",
+    "text",
+    "88YPxdcQ",
+    "&q=",
+    "35508740TDVArK",
+    "25PBrIEn",
+    "724157TCnxmT",
+    "then",
+    "london",
+    "\x20celsius\x20(feels\x20like\x20",
+    "#cityInput",
+    "click",
+    "781280lOqsDT",
+    "1572338pOTLTR",
+  ];
+  _0x1522 = function () {
+    return _0x182710;
+  };
+  return _0x1522();
+}
+function getApi(_0x37e5fd) {
+  const _0x28a8a8 = _0x3c55da;
+  return fetch(url + _0x37e5fd, { mode: "cors" })
+    [_0x28a8a8(0x88)]((_0x472170) => {
+      const _0x516da0 = _0x28a8a8;
+      return _0x472170[_0x516da0(0x7b)]();
+    })
+    [_0x28a8a8(0x88)]((_0x1d67d6) => {
+      return _0x1d67d6;
+    })
+    ["catch"]((_0x304f1a) => {
+      const _0x15dc30 = _0x28a8a8;
+      console[_0x15dc30(0x76)](_0x304f1a);
+    });
+}
+async function getApiDetails(_0xa28089) {
+  const _0x51408b = await getApi(_0xa28089);
+  render(_0x51408b);
+}
+function render(_0x2ec4e2) {
+  const _0x529cf1 = _0x3c55da;
+  let _0x38927a = document[_0x529cf1(0x97)](_0x529cf1(0x91));
+  console[_0x529cf1(0x9a)](_0x2ec4e2),
+    (_0x38927a[_0x529cf1(0x7f)] = ""),
+    (_0x38927a["innerHTML"] =
+      "\x0a\x20\x20<h2>" +
+      _0x2ec4e2[_0x529cf1(0x8f)][_0x529cf1(0x74)] +
       ",\x20" +
-      _0x1522d7[_0x384919(0x1d0)][_0x384919(0x1cd)] +
+      _0x2ec4e2["location"][_0x529cf1(0x90)] +
       "</h2>\x0a\x20\x20<div\x20class=\x22condition-container\x22>\x0a\x20\x20\x20\x20<img\x20src=\x22" +
-      _0x1522d7[_0x384919(0x1d3)][_0x384919(0x1db)][_0x384919(0x1cf)] +
-      "\x22/>\x0a\x20\x20\x20\x20<p>" +
-      _0x1522d7[_0x384919(0x1d3)][_0x384919(0x1db)][_0x384919(0x1c4)] +
-      _0x384919(0x1de) +
-      _0x1522d7[_0x384919(0x1d3)]["temp_c"] +
-      _0x384919(0x1d1) +
-      _0x1522d7["current"]["feelslike_c"] +
-      "\x20celsius).</p>\x0a\x20\x20<p>" +
-      _0x1522d7[_0x384919(0x1d0)]["localtime"] +
-      _0x384919(0x1dd));
+      _0x2ec4e2[_0x529cf1(0x7d)][_0x529cf1(0x7c)][_0x529cf1(0x94)] +
+      _0x529cf1(0x7e) +
+      _0x2ec4e2[_0x529cf1(0x7d)][_0x529cf1(0x7c)][_0x529cf1(0x82)] +
+      _0x529cf1(0x92) +
+      _0x2ec4e2[_0x529cf1(0x7d)][_0x529cf1(0x81)] +
+      _0x529cf1(0x8a) +
+      _0x2ec4e2[_0x529cf1(0x7d)][_0x529cf1(0x80)] +
+      _0x529cf1(0x96) +
+      _0x2ec4e2["location"][_0x529cf1(0x79)] +
+      "</p>\x0a\x20\x20");
 }
-function localTime(_0x4ed0c2) {
-  console["log"](_0x4ed0c2);
+function localTime(_0x46e19b) {
+  const _0x469124 = _0x3c55da;
+  console[_0x469124(0x9a)](_0x46e19b);
 }
-let searchBtn = document[_0x5902df(0x1c6)](_0x5902df(0x1cb));
-searchBtn[_0x5902df(0x1dc)]("click", () => {
-  const _0x1cf5d3 = _0x5902df;
-  let _0x57e640 = document[_0x1cf5d3(0x1c6)]("#cityInput");
-  getApiDetails(_0x57e640["value"]);
+let searchBtn = document[_0x3c55da(0x97)](_0x3c55da(0x99));
+searchBtn["addEventListener"](_0x3c55da(0x8c), () => {
+  const _0xdbce66 = _0x3c55da;
+  let _0x1ac4c3 = document[_0xdbce66(0x97)](_0xdbce66(0x8b));
+  getApiDetails(_0x1ac4c3[_0xdbce66(0x78)]);
 }),
-  getApiDetails(_0x5902df(0x1d2));
+  getApiDetails(_0x3c55da(0x89));
