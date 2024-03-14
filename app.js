@@ -64,13 +64,13 @@ function render(city) {
 
     // append to container
     container.innerHTML = `
-    <h2>${city.location.name}, ${city.location.country}</h2>
+    <h2 class="conditionCity">${city.location.name}, ${city.location.country}</h2>
     <div class="condition-container">
-      <img src="${city.current.condition.icon}"/>
-      <p>${city.current.condition.text}</p>
+      <img src="${city.current.condition.icon}" class="weatherIcon"/>
+      <p class="weatherCondition">${city.current.condition.text}</p>
     </div>
-    <p>Current temperature: ${city.current.temp_c} celsius (feels like ${city.current.feelslike_c} celsius).</p>
-    <p>${city.location.localtime}</p>
+    <p class="conditionTemp">Current temperature: ${city.current.temp_c} celsius (feels like ${city.current.feelslike_c} celsius).</p>
+    <p class="conditionTime">${city.location.localtime}</p>
     `;
   } catch (error) {
     console.log("You must enter a valid city name");
