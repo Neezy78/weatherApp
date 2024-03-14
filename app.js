@@ -1,5 +1,5 @@
 const key = "be14689db2874a20afd140028240603";
-const url = `http://api.weatherapi.com/v1/current.json?key=${key}&q=`;
+const url = `https://api.weatherapi.com/v1/current.json?key=${key}&q=`;
 
 function loader(val) {
   if (val === true) {
